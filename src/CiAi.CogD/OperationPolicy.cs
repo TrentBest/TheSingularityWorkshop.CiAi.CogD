@@ -25,7 +25,7 @@ public sealed class OperationPolicy
             return Deny("operation.required", operationLiteral ?? string.Empty, context?.TargetRepository ?? string.Empty, "Operation is missing.");
         if (context is null || context.AllowedTargets is null)
             return Deny("policy-context.required", operationLiteral, context?.TargetRepository ?? string.Empty, "Trusted host policy context is required.");
-        if (string.IsNullOrWhiteSpace(context.TargetRepository) || !context.AllowedTargets.Contains(context.TargetRepository))
+        if (string.IsNullOrWhiteSpace(context.TargetRepository) || !context.AllowedTargets.Any(target => string.Equals(target, context.TargetRepository, StringComparison.OrdinalIgnoreCase)))
             return Deny("target.not-allowed", operationLiteral, context.TargetRepository, "Target is not in the host-provided allowlist.");
 
         if (!_symbolIds.TryGetValue(operationLiteral, out var symbolId))
