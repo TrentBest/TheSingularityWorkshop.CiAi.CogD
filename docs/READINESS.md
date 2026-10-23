@@ -3,7 +3,7 @@
 **Readiness: 20% — ProtocolAi-backed policy prototype, not a host authorization system.**
 
 ## Implemented on development
-- Uses the published TheSingularityWorkshop.ProtocolAi 0.1.0-alpha.3 API to define a deterministic operation vocabulary.
+- Uses the published TheSingularityWorkshop.ProtocolAi 0.1.0-alpha.2 API to define a deterministic operation vocabulary.
 - Allows only the known prototype operations observe.status and test.noop when the target is in a host-provided allowlist.
 - Unknown operation strings remain literals and are denied, never translated into executable operations.
 - Publishing is denied unless explicit release approval is represented; this prototype still does not enable publishing even when the flag is true.
