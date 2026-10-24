@@ -2,6 +2,10 @@
 
 **Mission:** use ProtocolAi's actual integer-backed vocabulary to resolve known operations, then apply a host-provided allowlist. Unknown literals remain data and cannot become commands.
 
+## Documentation
+
+See [OperationPolicy UML and use case](docs/UML/OperationPolicyUML.md) for vocabulary resolution, policy inputs, and the explicit publishing denial.
+
 ## 01 — See it in a minute
 
 Requires the .NET 8 SDK and restores TheSingularityWorkshop.ProtocolAi 0.1.0-alpha.2.
