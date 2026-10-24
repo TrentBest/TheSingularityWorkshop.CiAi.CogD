@@ -22,9 +22,15 @@ CogD uses explicit exact-match allow rules. Unmatched requests, disabled rules, 
 - No network access, persistence, or execution.
 - Durable policy sources, signed rules, and coordinator integration remain future work.
 
+## Gallery
+
+See [Gallery.md](Gallery.md) for the quick tour and verification recipe.
+
 ## 04 — UML and use case
 
 See [CapabilityPolicy UML and use case](docs/UML/CapabilityPolicyUML.md).
+
+See [CapabilityPolicy class companion](src/TheSingularityWorkshop.CiAi.CogD/CapabilityPolicy.md).
 
 ## 05 — Release status
 
