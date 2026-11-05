@@ -1,5 +1,7 @@
 # The Singularity Workshop CiAi.CogD
 
+[![Sith Policy](assets/sith-policy.svg)](https://github.com/TrentBest/TheSingularityWorkshop.CiAi.CogD/actions/workflows/sith-policy.yml)
+
 **CogD is the default-deny policy gate for capability requests.** It evaluates exact caller, target, capability, provider, and time scope before execution can be considered.
 
 ## 01 — See it in a minute
