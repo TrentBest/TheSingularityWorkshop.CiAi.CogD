@@ -1,5 +1,6 @@
 # CiAi.CogD — Deterministic Vocabulary and Policy Gate
 
+[![Sith Policy](assets/sith-policy.svg)](https://github.com/TrentBest/TheSingularityWorkshop.CiAi.CogD/actions/workflows/sith-policy.yml)
 **Mission:** use ProtocolAi's actual integer-backed vocabulary to resolve known operations, then apply a host-provided allowlist. Unknown literals remain data and cannot become commands.
 
 ## Documentation
