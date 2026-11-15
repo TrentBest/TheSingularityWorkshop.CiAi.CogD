@@ -9,7 +9,7 @@ See [OperationPolicy UML and use case](docs/UML/OperationPolicyUML.md) for vocab
 
 ## 01 — See it in a minute
 
-Requires the .NET 8 SDK and restores TheSingularityWorkshop.ProtocolAi 0.1.0-alpha.2.
+Requires the .NET 10 SDK and restores TheSingularityWorkshop.ProtocolAi 0.1.0-alpha.2.
 
     dotnet build src/CiAi.CogD/CiAi.CogD.csproj --configuration Release
     dotnet run --project tests/CiAi.CogD.Tests/CiAi.CogD.Tests.csproj --configuration Release
